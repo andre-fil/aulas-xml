@@ -1,0 +1,8 @@
+<!--elemento raiz ( especificações) -->
+<?xml version="1.0" encoding="utf-8"?>
+<!--tag raiz ( note) e seus filhos -->
+<note importance="high" logged="true">
+    <title prop="demo">Happy</title>
+    <todo>Work</todo>
+    <todo>Play</todo>
+ </note>
