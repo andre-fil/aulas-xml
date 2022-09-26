@@ -1,0 +1,13 @@
+import xml.etree.ElementTree as ET 
+tree = ET.parse('arq2.xml') 
+root = tree.getroot() 
+
+for element in root:
+  print(f" Título: {element.attrib['title']}")
+
+
+
+  for element2 in element:
+    print(f" Capítulo: {element.attrib['title']}")
+  
+    
