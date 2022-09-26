@@ -1,12 +1,15 @@
 import xml.etree.ElementTree as ET 
+#Iterando sobre o arquivo
 tree = ET.parse('arq2.xml') 
+#pegadno a raiz da árvore
 root = tree.getroot() 
 
+#iterando sobre a primeira raiz
 for element in root:
   print(f" Título: {element.attrib['title']}")
 
 
-
+  #iterando sobre a raiz 2
   for element2 in element:
     print(f" Capítulo: {element.attrib['title']}")
   
